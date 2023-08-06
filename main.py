@@ -8,6 +8,7 @@ def request(url):
         pass
 
 
+
 target_url = "google.com"
 
 with open("./suddom_list.txt", 'r') as subdom_list:
