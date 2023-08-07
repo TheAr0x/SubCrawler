@@ -8,7 +8,7 @@ def request(url):
         pass
 
 
-target_url = "google.com"
+target_url = input("Enter an URL (format : site.com) : ")
 
 with open("./suddom_list.txt", 'r') as subdom_list:
     for line in subdom_list:
